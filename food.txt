@@ -1,0 +1,30 @@
+Dessert=input("churros or ice cream?")
+
+if Dessert=="churros":
+    Filling=input("What kind of filling? (caramel,chocolate,vanilla)")
+    if Filling=="caramel":
+        choice3=input("Are you thirsty?")
+        if choice3=="yes":
+            choice4=input("lemonade or water?")
+            if choice4=="lemonade":
+                print("lemonade")
+            elif choice4=="water":
+                print("Enjoy your water!")
+
+    elif Filling=="chocolate":
+        print("you forgot you had diabetes and you go into shock. GAME OVER.")
+
+    elif Filling=="vanilla":
+        print("you burn your tongue. GAME OVER.")
+
+
+elif Dessert=="ice cream":
+    Dessert=input("what type of flavor? (chocolate,vanilla)")
+      if Dessert=="chocolate":
+        choice5=input("do you want sprinkles?")
+        if choice5=="yes":
+            choice6=input("chocolate sprinkles")
+        if choice6=="chocolate sprinkles":
+                print("chocolate sprinkles")
+            elif choice5=="no sprinkles":
+        print("you ate too fast and got a brain freeze. GAME OVER.")
